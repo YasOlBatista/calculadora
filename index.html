@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ot-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Calculadora</h1>
+    <div class="caixas">
+        <input type="number" min="1" max="10" id="num1">
+        <span id="sinal" class="sinais"></span>
+        <input type="number" min="1" max="10" id="num2"> 
+        <span id="igual" class="sinais"> = </span>
+        <span id="resultado"></span>
+    </div>
+
+    <div class="operacoes">
+        <button onclick="soma()"  id="soma">Soma</button>
+        <button onclick="subtracao()"  id="subtracao">Subtração</button>
+        <button onclick="mult()"  id="mult">Multiplicação</button>
+        <button onclick="divisao()"  id="divisao">Divisão</button>
+    </div>
+
+</body>
+    <script src="calculadora.js"></script>
+</html>

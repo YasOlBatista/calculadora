@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ebebeb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 90vh;
+    gap: 30px;
+}
+
+.caixas input, #resultado {
+    display: flex;
+    width: 120px;
+    height: 120px;
+    font-size: 28px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: aliceblue;
+    border: 0;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.caixas {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+button {
+    background-color: aliceblue;
+    border: 0;
+    padding: 13px 24px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 1px solid #7171712c;
+}
+
+.operacoes {
+    display: flex;
+    gap: 30px;
+}
+
+.sinais {
+    font-size: 21px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+#soma {
+    background-color: rgba(96, 255, 96, 0.732);
+}
+
+#subtracao {
+    background-color: rgb(255, 255, 104);
+}
+
+#mult {
+    background-color: rgb(255, 78, 78);
+}
+
+#divisao {
+    background-color: #6161fc;
+}
+
+h1{
+    margin-bottom: 30px;
+}
